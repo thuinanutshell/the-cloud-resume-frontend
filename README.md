@@ -1,23 +1,6 @@
 # The Cloud Resume Challenge (AWS)
 
-# Fundamental Concepts
-## Cloud Computing
-- CC is a solution to the problem of the past, where companies hosted and maintained hardware like compute, storage, and networking equipment in their own data centers, which required an entire infrastructure department. Because the cost of maintaining a large physical space is expensive and inflexible, cloud computing was born.
-- CC is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. AWS owns and maintains the data centers and provides a **virtualized data center** tech and services to users over the Internet.
-- Oftentimes, when you save your data to the cloud (backup), so that when your laptop breaks, your data is still saved somewhere safe.
-- Availability Zone (AZs): clusters of data centers linked (high-speed and low-latency links) with one another
-- Region: clusters of AZs
-  - Compliance
-  - Latency (how close is the IT resource to the user base?)
-  - Pricing 
-  - Service availability
-- Edge locations that cache frequently accessed content
-  
-## AWS Compute & Networking
-### Amazon Elastic Compute Cloud (Amazon EC2)
-### Amazon VPC
-## Storage & Databases on AWS
-### Amazon S3
-### Amazon EBS
-## Monitoring, Optimization, and Serverless AWS
-### Elastic Load Balancing (ELB)
+- [x] Your resume needs to be written in HTML. Not a Word doc, not a PDF. Here is an example of what I mean.
+- [x] Your resume needs to be styled with CSS. No worries if you’re not a designer – neither am I. It doesn’t have to be fancy. But we need to see something other than raw HTML when we open the webpage.
+- [x] Your HTML resume should be deployed online as an Amazon S3 static website. Services like Netlify and GitHub Pages are great and I would normally recommend them for personal static site deployments, but they make things a little too abstract for our purposes here. Use S3.
+- [x] The S3 website URL should use HTTPS for security. You will need to use Amazon CloudFront to help with this.
