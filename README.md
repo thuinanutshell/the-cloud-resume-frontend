@@ -8,5 +8,7 @@ Writing HTML/CSS did not take me much time and I just followed the tutorial to s
 
 # Resources
 [1] https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
+
 [2] https://aws.amazon.com/awstv/watch/785302d2101/
+
 [3] https://dev.to/aws-builders/setup-cloudfront-amazon-s3-to-deliver-objects-on-the-web-apps-securely-efficiently-2gnk
